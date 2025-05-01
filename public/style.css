@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f1f1f1;
+  }
+  
+  .app-container {
+    display: flex;
+    height: 100vh;
+    background-color: #2f2945;
+    color: #fff;
+  }
+  
+  .sidebar {
+    width: 25%;
+    background-color: #3a3355;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .app-logo {
+    margin-bottom: 1rem;
+  }
+  
+  .search-box {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    background: #524b6b;
+    color: white;
+  }
+  
+  .contacts {
+    list-style: none;
+    padding: 0;
+    overflow-y: auto;
+    flex: 1;
+  }
+  
+  .contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    background: #4b436a;
+    padding: 0.5rem;
+    border-radius: 10px;
+  }
+  
+  .contact img {
+    border-radius: 50%;
+    margin-right: 0.5rem;
+  }
+  
+  .contact-info {
+    flex: 1;
+  }
+  
+  .contact .name {
+    font-weight: bold;
+    display: block;
+  }
+  
+  .contact .time {
+    font-size: 0.8rem;
+  }
+  
+  .chat-section {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background: #2f2945;
+  }
+  
+  .chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .chat-user {
+    display: flex;
+    align-items: center;
+  }
+  
+  .chat-user img {
+    border-radius: 50%;
+    margin-right: 0.5rem;
+  }
+  
+  .chat-nav .btn {
+    background: #4b436a;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: white;
+    margin-left: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .messages {
+    list-style: none;
+    padding: 0;
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  .messages li {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    max-width: 60%;
+    border-radius: 10px;
+    word-wrap: break-word;
+  }
+  
+  .messages li.incoming {
+    background-color: #4b436a;
+    align-self: flex-start;
+  }
+  
+  .messages li.outgoing {
+    background-color: #f1a77b;
+    color: black;
+    align-self: flex-end;
+  }
+  
+  .chat-input {
+    display: flex;
+    margin-top: 1rem;
+  }
+  
+  .chat-input input {
+    flex: 1;
+    padding: 0.75rem;
+    border-radius: 25px;
+    border: none;
+    margin-right: 0.5rem;
+  }
+  
+  .send-btn {
+    padding: 0 1rem;
+    background: #10b981;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+  }
+  
